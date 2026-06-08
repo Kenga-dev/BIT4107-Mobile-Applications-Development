@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="32dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Student Assessment"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:layout_marginTop="32dp"
+        android:layout_marginBottom="8dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select observed competencies:"
+        android:textSize="16sp"
+        android:layout_marginBottom="32dp"/>
+
+    <CheckBox
+        android:id="@+id/checkCompetency1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Follows instructions clearly"
+        android:textSize="18sp"
+        android:minHeight="48dp"
+        android:layout_marginBottom="16dp"/>
+
+    <CheckBox
+        android:id="@+id/checkCompetency2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Completes tasks independently"
+        android:textSize="18sp"
+        android:minHeight="48dp"
+        android:layout_marginBottom="16dp"/>
+
+    <CheckBox
+        android:id="@+id/checkCompetency3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Collaborates well with peers"
+        android:textSize="18sp"
+        android:minHeight="48dp"
+        android:layout_marginBottom="48dp"/>
+
+    <Button
+        android:id="@+id/submitAssessmentButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Save Assessment" />
+
+</LinearLayout>
